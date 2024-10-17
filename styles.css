@@ -1,0 +1,350 @@
+body{
+    margin: 0;
+    background-color: #fbfbfb ;
+}
+#header{
+    padding: 10px;
+    width: 99%;
+    height: 60px;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 2px 4px rgb(209, 205, 205);
+}
+#searchbar{
+    height: 50px;
+    width: 600px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+input::placeholder{
+    position: absolute;
+    margin-left: 45px;
+}
+#search{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 28px;
+    left: 240px;
+}
+#login{
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border: 1px solid black;
+}
+#login:hover{
+    cursor: pointer;
+    background-color: rgb(218, 213, 213);
+}
+#signup{
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+#signup:hover{
+    cursor: pointer;
+    background-color: rgb(84, 83, 83);
+}
+#web{
+    width: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+#web:hover{
+    cursor: pointer;
+    background-color: rgb(198, 197, 197);
+}
+#cat{
+    color: rgb(87, 86, 86);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cat:hover{
+    cursor: pointer;
+    color: rgb(181, 69, 225);
+}
+#plan{
+    color: rgb(87, 86, 86);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#plan:hover{
+    cursor: pointer;
+    color: rgb(181, 69, 225);
+}
+#business{
+    color: rgb(87, 86, 86);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#business:hover{
+    cursor: pointer;
+    color: rgb(181, 69, 225);
+}
+#teach{
+    color: rgb(87, 86, 86);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#teach:hover{
+    cursor: pointer;
+    color: rgb(181, 69, 225);
+}
+#cart:hover{
+    cursor: pointer;
+}
+#firstpic{
+    position:absolute;
+    left: 90px;
+    top: 84px;   
+}
+#learning{
+    position: absolute;
+    left: 190px;
+    top: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0 2px 4px rgb(209, 205, 205);
+}
+#skill{
+    left: 190px;
+    top: 250px;
+    font-weight:400;
+    font-size:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#all{
+    position: absolute;
+    left: 140px;
+    top: 500px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#from{
+    position: absolute;
+    left: 140px;
+    top: 550px;
+    font-weight:300;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cert{
+    position: absolute;
+    left: 140px;
+    top: 650px;
+    font-weight:500;
+    font-size:18px;
+    color: rgb(86, 83, 83);
+    word-spacing: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cert:hover{
+    cursor: pointer;
+    color: black;
+}
+#courses{
+    position: absolute;
+    display: flex;
+    top:750px;
+    left: 140px;
+}
+#webd{
+    font-size:medium;
+    font-weight: bold;
+    background-color: rgb(230, 227, 227);
+    padding: 20px;
+    border-radius: 120px;
+}
+#webd:hover{
+    cursor: pointer;
+    background-color: rgb(180, 177, 177);
+}
+#javas{  
+    font-size:medium;
+    font-weight: bold;
+    background-color: rgb(230, 227, 227);
+    padding: 20px;
+    margin-left: 50px;
+    border-radius: 120px;
+}
+#javas:hover{
+    cursor: pointer;
+    background-color: rgb(180, 177, 177);
+}
+#react{
+    font-size:medium;
+    font-weight: bold;
+    background-color: rgb(230, 227, 227);
+    padding: 20px;
+    margin-left: 50px;
+    border-radius: 120px;
+}
+#react:hover{
+    cursor: pointer;
+    background-color: rgb(180, 177, 177);
+}
+#ang{
+   
+    font-size:medium;
+    font-weight: bold;
+    background-color: rgb(230, 227, 227);
+    padding: 20px;
+    margin-left: 50px;
+    border-radius: 120px;
+}
+#ang:hover{
+    cursor: pointer;
+    background-color: rgb(180, 177, 177);
+}
+#java{
+    font-size:medium;
+    font-weight: bold;
+    background-color: rgb(230, 227, 227);
+    padding: 20px;
+    margin-left: 50px;
+    border-radius: 120px;
+}
+#java:hover{
+    cursor: pointer;
+    background-color: rgb(180, 177, 177);
+}
+#and{
+    font-size:medium;
+    font-weight: bold;
+    background-color: rgb(230, 227, 227);
+    padding: 20px;
+    margin-left: 50px;
+    border-radius: 120px;
+}
+#and:hover{
+    cursor: pointer;
+    background-color: rgb(180, 177, 177);
+}
+#card1{
+    position: absolute;
+    top: 850px;
+    left: 140px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px rgb(209, 205, 205);
+}
+#jasc{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+#thecomp{
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#price1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#best{
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#card1:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+#card2{
+    position: absolute;
+    top: 850px;
+    left: 460px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px rgb(209, 205, 205);
+}
+#node{
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#theweb{
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#price2{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#card2:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+#card3{
+    position: absolute;
+    top: 850px;
+    left: 780px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px rgb(209, 205, 205);
+}
+#webdev{
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#thecompl{
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#price3{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#card3:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+#card4{
+    position: absolute;
+    top: 850px;
+    left: 1100px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px rgb(209, 205, 205);
+}
+#exp{
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#mast{
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#price4{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#card4:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+#top{
+    position: absolute;
+    top: 1270px;
+    color: white;
+    background-color:rgb(57, 55, 55);
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 140px;
+    padding-bottom: 300px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
